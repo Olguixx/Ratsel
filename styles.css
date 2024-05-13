@@ -1,0 +1,313 @@
+body{
+    background-color:#62162f;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Ratsel";
+    src: url("Fuentes/MetropolitanEditada.ttf") format("truetype");
+}
+
+.title{
+    width: width;
+    background: #230b1b ;
+    margin: 0;
+}
+
+.box{
+    margin-top:100px;
+    display: flex;
+    width: width;
+    height: 650px;
+    background: #230b1b ;
+    margin: 0;
+}
+
+.text{
+    margin-top: 30px;
+    padding-left: 120px;
+    font-size: 1.5rem;
+    max-width: 700px;
+    text-align: center;
+}
+
+.box img{
+    margin-left: 90px;
+    margin-top: 50px;
+    border: 2px solid #000000;
+}
+
+.box p, h1{
+    color: #ae6137;
+}
+
+h1{
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Ratsel";
+    -webkit-text-stroke: 0.5px black;
+    font-size: 50px;
+}
+
+
+.tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ae6137;
+    border: 2px solid #000000
+}
+
+.tab:hover {
+    background-color: #ae6137;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+.left-column {
+    width: 200px;
+    margin-top: 0;
+    margin-left: 50px;
+    background-color: #62162f;
+    position: absolute;
+    top: 0;
+    bottom: 200px;
+    overflow-y: auto;
+}
+
+.left-column nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+}
+
+.left-column img{
+    margin-top: 50%;
+}
+
+
+
+.center-column {
+    flex: 1;
+    padding-left: 270px;
+    padding-right: 220px; 
+    background-color: #62162f;
+    overflow-y: auto;
+}
+
+.Embellecedor{
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+
+
+
+.lista {
+    list-style: none; 
+    padding: 0; 
+}
+
+.lista li {
+    margin-bottom: 20px; 
+    display: flex; 
+}
+
+.imagen-circular {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: center; 
+    margin-right: 20px;
+}
+
+.texto-explicativo {
+    font-size: 1.25rem;
+    flex: 1; 
+}
+
+.imagen1 {
+    background-image: url('Imágenes/Silvia.jpg'); 
+}
+
+.imagen2 {
+    background-image: url('Imágenes/Laurajpg.jpg'); 
+}
+
+.imagen3 {
+    background-image: url('Imágenes/Olga2.jpg'); 
+}
+
+.imagen4 {
+    background-image: url('Imágenes/Íñigo.jpg'); 
+}
+
+.imagen5 {
+    background-image: url('Imágenes/Javi.jpg'); 
+}
+
+.imagen6 {
+    background-image: url('Imágenes/Sara.jpg'); 
+}
+
+.subtitulo {
+    font-size: 14px; 
+    color: #111111; 
+}
+
+h2, h3 {
+    font-family: "Ratsel";
+}
+
+.right-column {
+    width: 200px;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+
+.container2 {
+    display: flex;
+    position: relative;
+}
+
+.left-column2 {
+    width: 200px;
+    margin-top: 0;
+    margin-left: 50px;
+    background-color: #62162f;
+    position: absolute;
+    top: 0;
+    bottom: 200px;
+    overflow-y: auto;
+}
+
+.left-column2 nav a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #c7c7c7;
+}
+
+.left-column2 img{
+    margin-top: 20%;
+}
+
+.center-column2 {
+    flex: 1;
+    padding-left: 270px; 
+    padding-right: 220px; 
+    background-color: #62162f;
+    overflow-y: auto;
+}
+
+.TitRecompensas{
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+
+.boxR {
+    width: 600px;
+    height: 200px;
+    background: white;
+    text-align: center;
+}
+
+.boxR h3, h4{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.TitPreguntas{
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+
+.preguntas{
+    margin-left: 28%;
+    max-width: 600px; 
+    padding: 20px; 
+    text-align: justify; 
+    text-align-last: center;
+}
+
+.preguntas p{
+    text-align: center;
+}
+
+.box-comentarios{
+
+    background: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.comentarios{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0;
+}
+
+.partebaja {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.redes-sociales {
+    text-align: center;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    width: 40px; 
+    height: 40px;
+}
+
+.redes-sociales a:hover img {
+    opacity: 0.8;
+}
+
