@@ -14,6 +14,10 @@ body{
     margin: 0;
 }
 
+img{
+    border: 5px solid #000000;
+}
+
 .box{
     margin-top:100px;
     display: flex;
@@ -105,8 +109,6 @@ h1{
 .left-column img{
     margin-top: 50%;
 }
-
-
 
 .center-column {
     flex: 1;
@@ -238,7 +240,7 @@ h2, h3 {
 .boxR {
     width: 600px;
     height: 200px;
-    background: white;
+    background: #ae6137;
     text-align: center;
 }
 
@@ -255,15 +257,14 @@ h2, h3 {
 }
 
 .preguntas{
-    margin-left: 28%;
-    max-width: 600px; 
-    padding: 20px; 
-    text-align: justify; 
     text-align-last: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .preguntas p{
     text-align: center;
+    font-size: 1.4rem;
 }
 
 .box-comentarios{
