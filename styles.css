@@ -1,5 +1,5 @@
-body{
-    background-color:#62162f;
+body {
+    background-color: #62162f;
     margin: 0;
 }
 
@@ -8,44 +8,45 @@ body{
     src: url("Fuentes/MetropolitanEditada.ttf") format("truetype");
 }
 
-.title{
+.title {
     width: width;
-    background: #230b1b ;
+    background: #230b1b;
     margin: 0;
 }
 
-img{
+img {
     border: 5px solid #000000;
 }
 
-.box{
-    margin-top:100px;
+.box {
+    margin-top: 9%;
     display: flex;
     width: width;
-    height: 650px;
-    background: #230b1b ;
+    height: 600px;
+    background: #230b1b;
     margin: 0;
 }
 
-.text{
-    margin-top: 30px;
-    padding-left: 120px;
+.text {
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 1.5rem;
     max-width: 700px;
     text-align: center;
 }
 
-.box img{
-    margin-left: 90px;
-    margin-top: 50px;
+.box img {
+    margin-left: 8%;
+    margin-top: 5%;
     border: 2px solid #000000;
 }
 
-.box p, h1{
+.box p, h1 {
     color: #ae6137;
 }
 
-h1{
+h1 {
     margin: 0;
     margin-top: 50px;
     text-align: center;
@@ -59,6 +60,15 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.barritas {
+    cursor: pointer;
+    margin-top: 0.5%;
+    margin-left: 95%;
+    border: none;
+    background-color: transparent;
+    display: none;
 }
 
 .tab {
@@ -88,10 +98,12 @@ h1{
     display: flex;
     position: relative;
 }
+
 .left-column {
     width: 200px;
+    height: 80%;
     margin-top: 0;
-    margin-left: 50px;
+    margin-left: 3%;
     background-color: #62162f;
     position: absolute;
     top: 0;
@@ -99,101 +111,114 @@ h1{
     overflow-y: auto;
 }
 
-.left-column nav a{
+.left-column nav a {
     display: block;
     text-decoration: none;
     padding: 20px;
     color: #c7c7c7;
 }
 
-.left-column img{
-    margin-top: 50%;
+.left-column img {
+    margin-top: 75%;
+    width: 150px;
+    height: height * 0.8px;
 }
 
 .center-column {
     flex: 1;
     padding-left: 270px;
-    padding-right: 220px; 
+    padding-right: 220px;
     background-color: #62162f;
     overflow-y: auto;
 }
 
-.Embellecedor{
-    text-align: center; 
+.Embellecedor {
+    text-align: center;
     margin-bottom: 20px;
     margin-top: 3px;
     font-size: 1.5rem;
 }
 
+.img-camiseta{
+    text-align: center;
+}
 
+.img-camiseta img {
+    width: 500px; 
+    height: width * 0.8;
+}
+
+.progreso img{
+    width: 960px;
+    height: width * 0.75;
+}
+
+.img-malotes img{
+    width: 405px;
+    height: width * 1.33;
+}
 
 .lista {
-    list-style: none; 
-    padding: 0; 
+    list-style: none;
+    padding: 0;
 }
 
 .lista li {
-    margin-bottom: 20px; 
-    display: flex; 
+    margin-bottom: 20px;
+    display: flex;
 }
 
 .imagen-circular {
-    width: 60px; 
-    height: 60px; 
-    border-radius: 50%; 
-    background-size: cover; 
-    background-position: center; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
     margin-right: 20px;
 }
 
 .texto-explicativo {
     font-size: 1.25rem;
-    flex: 1; 
+    flex: 1;
 }
 
 .imagen1 {
-    background-image: url('Imágenes/Silvia.jpg'); 
+    background-image: url('Imágenes/Silvia.jpg');
 }
 
 .imagen2 {
-    background-image: url('Imágenes/Laurajpg.jpg'); 
+    background-image: url('Imágenes/Laurajpg.jpg');
 }
 
 .imagen3 {
-    background-image: url('Imágenes/Olga2.jpg'); 
+    background-image: url('Imágenes/Olga2.jpg');
 }
 
 .imagen4 {
-    background-image: url('Imágenes/Íñigo.jpg'); 
+    background-image: url('Imágenes/Íñigo.jpg');
 }
 
 .imagen5 {
-    background-image: url('Imágenes/Javi.jpg'); 
+    background-image: url('Imágenes/Javi.jpg');
 }
 
 .imagen6 {
-    background-image: url('Imágenes/Sara.jpg'); 
+    background-image: url('Imágenes/Sara.jpg');
 }
 
 .subtitulo {
-    font-size: 14px; 
-    color: #111111; 
+    font-size: 14px;
+    color: #111111;
 }
 
 h2, h3 {
     font-family: "Ratsel";
 }
 
-.right-column {
-    width: 200px;
-    background-color: #f0f0f0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    overflow-y: auto;
+.video video {
+    width: 980px;
+    height: width * 0.5625;
 }
-
 
 .container2 {
     display: flex;
@@ -202,8 +227,9 @@ h2, h3 {
 
 .left-column2 {
     width: 200px;
+    height: 80%;
     margin-top: 0;
-    margin-left: 50px;
+    margin-left: 3%;
     background-color: #62162f;
     position: absolute;
     top: 0;
@@ -211,27 +237,27 @@ h2, h3 {
     overflow-y: auto;
 }
 
-.left-column2 nav a{
+.left-column2 nav a {
     display: block;
     text-decoration: none;
     padding: 10px;
     color: #c7c7c7;
 }
 
-.left-column2 img{
+.left-column2 img {
     margin-top: 20%;
 }
 
 .center-column2 {
     flex: 1;
-    padding-left: 270px; 
-    padding-right: 220px; 
+    padding-left: 270px;
+    padding-right: 220px;
     background-color: #62162f;
     overflow-y: auto;
 }
 
-.TitRecompensas{
-    text-align: center; 
+.TitRecompensas {
+    text-align: center;
     margin-bottom: 20px;
     margin-top: 3px;
     font-size: 1.5rem;
@@ -244,31 +270,30 @@ h2, h3 {
     text-align: center;
 }
 
-.boxR h3, h4{
-    text-align: left;
-    margin-left: 5%;
-}
+    .boxR h3, h4 {
+        text-align: left;
+        margin-left: 5%;
+    }
 
-.TitPreguntas{
-    text-align: center; 
+.TitPreguntas {
+    text-align: center;
     margin-bottom: 20px;
     margin-top: 3px;
     font-size: 1.5rem;
 }
 
-.preguntas{
+.preguntas {
     text-align-last: center;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.preguntas p{
-    text-align: center;
-    font-size: 1.4rem;
-}
+    .preguntas p {
+        text-align: center;
+        font-size: 1.4rem;
+    }
 
-.box-comentarios{
-
+.box-comentarios {
     background: white;
     text-align: center;
     margin-left: 5%;
@@ -276,22 +301,23 @@ h2, h3 {
     margin-bottom: 2%;
 }
 
-.comentarios{
+.comentarios {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 5%;
 }
 
 footer {
-    background-color: #333; 
-    color: #fff; 
+    background-color: #333;
+    color: #fff;
     padding: 20px 0;
 }
 
 .partebaja {
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: 0 20px; 
+    width: width;
+    height: 20%;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .redes-sociales {
@@ -304,11 +330,235 @@ footer {
 }
 
 .redes-sociales img {
-    width: 40px; 
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .redes-sociales a:hover img {
     opacity: 0.8;
 }
 
+.maletin img {
+    width: 768px; 
+    height: 768px;
+}
+
+.gameplay img {
+    width: 822px;
+    height: width * 1.39;
+}
+
+.img_merch img{
+    width: 375px;
+    height: width * 0.8;
+}
+
+@media (max-width: 1300px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .box {
+        height: 400px;
+    }
+
+    .box img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .text {
+        margin-top: 30px;
+        font-size: 1.2rem;
+        max-width: 700px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .video video {
+        width: 700px;
+        height: width * 0.5625;
+    }
+
+
+    .img-camiseta {
+        text-align: center;
+    }
+
+    .progreso img {
+        width: 600px;
+        height: width * 0.75;
+    }
+
+    .img-malotes img {
+        width: 300px;
+        height: width * 1.33;
+    }
+
+    .maletin img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .gameplay img {
+        width: 550px;
+        height: width * 1.39;
+    }
+}
+
+@media (max-width: 900px) {
+    .title h1 {
+        font-size: 1.75rem;
+    }
+
+    .box {
+        height: 300px;
+    }
+
+    .box img {
+        width: 350px;
+        height: 220px;
+    }
+
+    .text {
+        padding-left: 10px;
+        margin-top: 30px;
+        font-size: 0.9rem;
+        max-width: 700px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .video video {
+        width: 500px;
+        height: width * 0.5625;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    .center-column {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .partebaja {
+        width: width;
+        height: 20%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .img-camiseta {
+        text-align: center;
+    }
+
+    .img-camiseta img {
+        width: 325px;
+        height: width * 0.8;
+    }
+
+    .progreso img {
+        width: 350px;
+        height: width * 0.75;
+    }
+
+    .img-malotes img {
+        width: 250px;
+        height: width * 1.33;
+    }
+
+    .maletin img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gameplay img {
+        width: 300px;
+        height: width * 1.39;
+    }
+
+    .imagen-circular {
+        width: 40px;
+        height: 40px;
+    }
+
+    .left-column2 {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .title h1 {
+        font-size: 1.75rem;
+    }
+
+    .box {
+        height: 300px;
+        align-items: center;
+    }
+
+    .box img {
+        width: 350px;
+        height: 220px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .text {
+        padding-left: 10px;
+        margin-top: 30px;
+        font-size: 0.9rem;
+        max-width: 700px;
+        text-align: center;
+        margin-right: 10px;
+        display: none;
+    }
+
+    .video video {
+        width: 300px;
+        height: width * 0.5625;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    .center-column {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .img-camiseta {
+        text-align: center;
+    }
+
+    .maletin img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .gameplay img {
+        width: 250px;
+        height: width * 1.39;
+    }
+
+    .gameplay p{
+        display: none;
+    }
+
+    .boxR {
+        width: 400px;
+        height: 200px;
+        background: #ae6137;
+        text-align: center;
+    }
+
+    .img_merch img {
+        width: 325px;
+        height: width*0.8;
+    }
+}
